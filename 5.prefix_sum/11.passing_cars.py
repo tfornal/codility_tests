@@ -47,7 +47,9 @@ def solution(A):
             zeros += 1
         else:
             passing += zeros
-            print(passing)
+
+    if passing > 1_000_000_000:
+        return -1
     return passing
 
 
