@@ -41,3 +41,10 @@ each element of arrays P and Q is an integer within the range [0..N - 1];
 P[K] ≤ Q[K], where 0 ≤ K < M;
 string S consists only of upper-case English letters A, C, G, T.
 """
+
+
+def solution():
+    pass
+
+
+solution()
