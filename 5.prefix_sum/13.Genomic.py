@@ -44,6 +44,7 @@ string S consists only of upper-case English letters A, C, G, T.
 
 
 def solution():
+    # gfor i in..
     pass
 
 
