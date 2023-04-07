@@ -43,9 +43,13 @@ string S consists only of upper-case English letters A, C, G, T.
 """
 
 
-def solution():
-    # gfor i in..
-    pass
+def solution(S, P, Q):
+    for i in zip(P, Q):
+        print(i)
+        pass
 
 
-solution()
+S = "CAGCCTA"
+P = [2, 5, 0]
+Q = [4, 5, 6]
+solution(S, P, Q)
