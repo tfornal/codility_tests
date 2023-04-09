@@ -43,17 +43,17 @@ string S consists only of upper-case English letters A, C, G, T.
 """
 
 
-def solution(S, P, Q):
-    S = S.replace("A", "1")
-    S = S.replace("C", "2")
-    S = S.replace("G", "3")
-    S = S.replace("T", "4")
-    ostateczne = []
-    for i in zip(P, Q):
-        lista = [x for x in range(i[0], i[1] + 1)]
-        x = [int(S[w]) for w in lista]
-        ostateczne.append(min(x))
-    return ostateczne
+# def solution(S, P, Q):
+#     S = S.replace("A", "1")
+#     S = S.replace("C", "2")
+#     S = S.replace("G", "3")
+#     S = S.replace("T", "4")
+#     ostateczne = []
+#     for i in zip(P, Q):
+#         lista = [x for x in range(i[0], i[1] + 1)]
+#         x = [int(S[w]) for w in lista]
+#         ostateczne.append(min(x))
+#     return ostateczne
 
 
 def solution_2(S, P, Q):
@@ -64,9 +64,7 @@ def solution_2(S, P, Q):
     ostateczne = []
     for i in zip(P, Q):
         lista = [int(S[x]) for x in range(i[0], i[1] + 1)]
-        # x = [int(S[w]) for w in lista]
         ostateczne.append(min(lista))
-        print(lista)
     return ostateczne
 
 
@@ -74,4 +72,3 @@ S = "CAGCCTA"
 P = [2, 5, 0]
 Q = [4, 5, 6]
 res = solution_2(S, P, Q)
-print(res)
