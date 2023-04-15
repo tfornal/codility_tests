@@ -70,5 +70,5 @@ def solution_2(S, P, Q):
 
 S = "CAGCCTA"
 P = [2, 5, 1]
-Q = [4, 5, 6]
+Q = [4, 5, 4]
 res = solution_2(S, P, Q)
