@@ -26,6 +26,7 @@ def solution(A, B, K):
 
 
 A = 6
-B = 11
+B = 13
 K = 2
 answer = solution(A, B, K)
+print(answer)
