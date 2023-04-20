@@ -29,4 +29,3 @@ A = 6
 B = 13
 K = 2
 answer = solution(A, B, K)
-print(answer)

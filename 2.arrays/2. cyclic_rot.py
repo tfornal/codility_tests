@@ -53,7 +53,6 @@ def solution(A, K):
 
 
 A = [1, 2, 3, 4]
-A = []
 K = 12
 x = solution(A, K)
 print(x)
